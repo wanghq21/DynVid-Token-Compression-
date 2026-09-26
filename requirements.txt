@@ -1,0 +1,12 @@
+# DynVid Dependencies
+# Run: pip install -r requirements.txt
+
+transformers==4.57.3
+accelerate>=0.25.0
+numpy
+tqdm
+decord>=0.6.0
+matplotlib
+
+# LMMS-Eval (local editable install)
+-e ./lmms-eval
